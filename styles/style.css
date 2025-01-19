@@ -362,8 +362,8 @@
     text-align: left;
 }
 .quote-section{
-    margin: 0px 100px;
-    padding: 35px 18px 35px 18px;
+    margin: 0px 90px 0px 100px;
+    padding: 35px 20px 25px 25px;
     background-image: url("../assets/quote-bg.png");
     background-repeat: no-repeat;
     box-sizing: border-box;
