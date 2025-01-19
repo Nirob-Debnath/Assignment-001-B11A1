@@ -3,6 +3,45 @@
     padding: 0;
     margin: 0;
 }
+.title{
+    color: rgb(14, 14, 14);
+    font-family: Fira Sans;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 48px;
+    letter-spacing: 0%;
+    text-align: center;
+    margin-bottom: 10px;
+}
+.subtitle{
+    color: rgba(14, 14, 14, 0.7);
+    font-family: Fira Sans;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.btn{
+    border-radius: 8px;
+    background: rgb(0, 106, 80);
+    border: none;
+    padding: 13px 26px 13px 26px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    color: rgb(255, 255, 255);
+    font-family: Fira Sans;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 22px;
+    letter-spacing: 0%;
+    text-align: left;
+    margin-top: 30px;
+    cursor: pointer;
+}
 .nav{
     padding: 28px 100px 28px 100px;
     display: flex;
@@ -162,26 +201,7 @@
 .recent-news{
     margin: 80px 90px 80px 100px;
 }
-.recent-news-title{
-    color: rgb(14, 14, 14);
-    font-family: Fira Sans;
-    font-size: 30px;
-    font-weight: 700;
-    line-height: 48px;
-    letter-spacing: 0%;
-    /* text-align: left; */
-    margin-bottom: 10px;
-}
-.recent-news-subtitle{
-    color: rgba(14, 14, 14, 0.7);
-    font-family: Fira Sans;
-    font-size: 14px;
-    font-weight: 400;
-    line-height: 24px;
-    letter-spacing: 0%;
-    /* text-align: left; */
-    margin-bottom: 20px;
-}
+
 .content{
     display: flex;
     border-radius: 24px;
@@ -233,25 +253,7 @@
     text-align: left;
     margin-bottom: 15px;
 }
-.read-more-btn{
-    border-radius: 8px;
-    background: rgb(0, 106, 80);
-    border: none;
-    padding: 13px 26px 13px 26px;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    color: rgb(255, 255, 255);
-    font-family: Fira Sans;
-    font-size: 14px;
-    font-weight: 600;
-    line-height: 22px;
-    letter-spacing: 0%;
-    text-align: left;
-    margin-top: 30px;
-    cursor: pointer;
-}
+
 .donate-alignment{
     justify-content: center;
     text-align: center;
@@ -304,7 +306,9 @@
     text-align: center;
 }
 .btn-align{
-    margin: 10px 450px;
+    margin: 10px 420px;
+    width: 180px;
+    text-align: center;
 }
 .footer{
     margin: 60px 130px;
