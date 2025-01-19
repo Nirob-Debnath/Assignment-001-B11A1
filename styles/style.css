@@ -256,3 +256,101 @@
     justify-content: center;
     text-align: center;
 }
+.money-section{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 32px 50px;
+    padding: 0px 100px;
+}
+.money{
+    box-sizing: border-box;
+    padding: 100px 200px;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    border-radius: 16px;
+    padding: 40px;
+    color: rgba(14, 14, 14, 0.8);
+    font-family: Fira Sans;
+    font-size: 35px;
+    font-weight: 700;
+    line-height: 48px;
+    letter-spacing: 0%;
+    position: static;
+    width: 240px;
+    height: 128px;
+    text-align: center;
+}
+.money-background{
+    background: rgb(255, 255, 255);
+}
+.money-background2{
+    background: rgb(198, 228, 214);
+}
+.other-amount-section{
+    margin: 50px 250px;
+}
+.other-amount{
+    margin-left: 200px;
+    width: 1032px;
+    height: 50px;
+    display: flex;
+    gap: 24;
+    flex: none;
+    order: 2;
+    flex-grow: 0;
+    margin: 32px 0px;
+    box-sizing: border-box;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    background: rgb(255, 255, 255);
+    text-align: center;
+}
+.btn-align{
+    margin: 10px 450px;
+}
+.footer{
+    margin: 60px 130px;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    border-radius: 24px;
+    background: rgb(198, 228, 214);
+    padding: 80px 100px 80px 100px;
+}
+.input-email{
+    display: flex;
+}
+.input-email-form{
+    position: static;
+    width: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 24;
+    padding: 18px 40px 18px 40px;
+    border-radius: 8px 0px 0px 8px;
+    background: rgb(255, 255, 255);
+    border: none;
+}
+.input-email-btn{
+    border-radius: 0px 8px 8px 0px;
+    background: rgb(0, 106, 80);
+    position: static;
+    width: 150px;
+    height: 56px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    padding: 17px 34px 17px 34px;
+    color: rgb(255, 255, 255);
+    font-family: Fira Sans;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 22px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+.alignment-1{
+    margin: 20px 320px;
+}
