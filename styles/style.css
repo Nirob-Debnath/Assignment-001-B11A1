@@ -358,3 +358,27 @@
 .alignment-1{
     margin: 20px 320px;
 }
+.recent-news-subtitle{
+    text-align: left;
+}
+.quote-section{
+    margin: 0px 100px;
+    padding: 35px 18px 35px 18px;
+    background-image: url("../assets/quote-bg.png");
+    background-repeat: no-repeat;
+    box-sizing: border-box;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    border-radius: 16px;
+}
+.quote-section-subtitle{
+    color: rgba(14, 14, 14, 0.8);
+    font-family: Fira Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+.quote-section-alignment{
+    margin-bottom: 10px;
+}
